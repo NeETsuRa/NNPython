@@ -1,3 +1,4 @@
+# basic NN with python example
 import numpy as np
 
 # sigmoid function
@@ -37,6 +38,9 @@ for iter in range(10000):
     l1_delta = l1_error * tmp
     # update weights
     syn0 += np.dot(l0.T,l1_delta)
+    if iter%1000==0:
+        print('after 1000 iterations')
+        print(l1)
 
 print ('Output After Training:')
 print (l1)
