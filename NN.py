@@ -39,7 +39,7 @@ for iter in range(10000):
     # update weights
     syn0 += np.dot(l0.T,l1_delta)
     if iter%1000==0:
-        print('after 1000 iterations')
+        print('after {} iterations'.format(iter))
         print(l1)
 
 print ('Output After Training:')
