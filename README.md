@@ -1,2 +1,2 @@
 # NNPython
-Neural Networks with Python
+Basic examples of Neural Networks in python
